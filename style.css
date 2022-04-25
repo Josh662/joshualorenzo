@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.lateral {
+    height: 100%;
+    min-width: 200px;
+    background-color: #051341;
+    position: fixed; /* Significa que sua posição é fixa */
+    top: 0px; /* Localização em Y */
+    left: 0px; /* Localização em X */
+    z-index: 1; /* Significa que esse elemento se sobrepõe aos outros */
+    overflow: hidden; /* Se algum elemento sair para fora do menu lateral ele desaparece */
+    text-align: center;
+    align-content: center;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #ff4801;
+    margin: 15px 0px;
+}
+
+.menu {
+    margin: 20% 0%;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 10px 0px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+abbr {
+    text-decoration: none;
+}
+
+.menu li a abbr:hover {
+    color: #ff4801;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5% 0% 0% 0%;
+    padding: 10% 0% 0% 0%;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 25px 10px;
+}
+
+.conteudo {
+    margin: 0% 0% 0% 200px;
+    padding: 20px 30px;
+    top: 0px; /* Localização em Y */
+    left: 200px; /* Localização em X */
+    width: 85%;
+    height: 600px;
+    background-color: black;
+}
+
+.partes {
+    display: flex;
+}
